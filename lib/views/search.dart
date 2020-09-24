@@ -49,7 +49,7 @@ class _SearchScreenState extends State<SearchScreen> {
       List<String> users = [userName, Constants.myName];
       Map<String, dynamic> charRoomMap={
         "users" : users,
-        "chatroomId" : chatRoomId,
+        "chatRoomId" : chatRoomId,
       };
 
       DatabaseMethods().createChatRoom(chatRoomId,charRoomMap);

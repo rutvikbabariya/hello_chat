@@ -22,10 +22,10 @@ class DatabaseMethods {
     });
   }
 
-  createChatRoom(String chatroomId, chatRoomMap) {
+  createChatRoom(String chatRoomId, chatRoomMap) {
     Firestore.instance
         .collection("ChatRoom")
-        .document(chatroomId)
+        .document(chatRoomId)
         .setData(chatRoomMap)
         .catchError((e) {
       print(e.toString());
