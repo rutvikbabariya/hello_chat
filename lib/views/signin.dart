@@ -6,6 +6,7 @@ import 'package:hello_chat/services/database.dart';
 import 'package:hello_chat/widgets/widget.dart';
 
 import 'chatRoomScreen.dart';
+import 'forgetpassword.dart';
 
 class SignIn extends StatefulWidget {
 
@@ -95,11 +96,19 @@ class _SignInState extends State<SignIn> {
                   ),
                 ),
                 SizedBox(height: 8.0,),
-                Container(
-                  alignment: Alignment.centerRight,
-                  child:   Container(
-                    padding: EdgeInsets.symmetric(horizontal: 16,vertical: 8),
-                    child: Text("Forgot Password?",style: simpleTextStyle(),),
+                GestureDetector(
+                  onTap: () {
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => ForgotPassword()));
+                  },
+                  child: Container(
+                    alignment: Alignment.centerRight,
+                    child:   Container(
+                      padding: EdgeInsets.symmetric(horizontal: 16,vertical: 8),
+                      child: Text("Forgot Password?",style: simpleTextStyle(),),
+                    ),
                   ),
                 ),
                 SizedBox(height:  8.0,),

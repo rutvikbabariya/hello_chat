@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:hello_chat/helper/authenticate.dart';
 import 'package:hello_chat/helper/constants.dart';
 import 'package:hello_chat/helper/helperfunctions.dart';
+import 'package:hello_chat/main.dart';
 import 'package:hello_chat/services/auth.dart';
 import 'package:hello_chat/services/database.dart';
 import 'package:hello_chat/views/conversation_screen.dart';
