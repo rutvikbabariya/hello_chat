@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f9cbb18-aa85-4f10-bbd1-d7412575e22a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/services/database.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/services/database.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/views/search.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/views/search.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +29,7 @@
   <component name="PropertiesComponent">
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/FlutterChatAppTutorial-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FlutterChatAppTutorial-master" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -82,10 +80,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="166" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600961813124" />
-    <state x="672" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1600954855279">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="756" y="214" key="com.intellij.ide.util.TipDialog" timestamp="1601012918121">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="672" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1600954855279" />
+    <state x="756" y="214" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1601012918121" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1600009774862">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
