@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4f9cbb18-aa85-4f10-bbd1-d7412575e22a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.flutter-plugins" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/services/auth.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/services/auth.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/settings.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/views/chatRoomScreen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/views/chatRoomScreen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/views/forgetpassword.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/views/forgetpassword.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/views/signin.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/views/signin.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +41,7 @@
   <component name="PropertiesComponent">
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/FlutterChatAppTutorial-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../FlutterChatAppTutorial-master" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -66,30 +72,39 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="363" y="91" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1600333889384" />
+    <state x="396" y="0" key="CommitChangelistDialog2" timestamp="1601050708620">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="396" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1601050708620" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1601041168780">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601041168780" />
-    <state width="1323" height="144" key="GridCell.Tab.0.bottom" timestamp="1601046583888">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1491" height="213" key="GridCell.Tab.0.bottom" timestamp="1601050708723">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="144" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601046583888" />
-    <state width="1323" height="144" key="GridCell.Tab.0.center" timestamp="1601046583888">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1491" height="213" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601050708723" />
+    <state width="1491" height="213" key="GridCell.Tab.0.center" timestamp="1601050708723">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="144" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601046583888" />
-    <state width="1323" height="144" key="GridCell.Tab.0.left" timestamp="1601046583888">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1491" height="213" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1601050708723" />
+    <state width="1491" height="213" key="GridCell.Tab.0.left" timestamp="1601050708722">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="144" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601046583888" />
-    <state width="1323" height="144" key="GridCell.Tab.0.right" timestamp="1601046583888">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1491" height="213" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1601050708722" />
+    <state width="1491" height="213" key="GridCell.Tab.0.right" timestamp="1601050708723">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="144" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601046583888" />
-    <state x="672" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1601017226418">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1491" height="213" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1601050708723" />
+    <state x="756" y="212" key="com.intellij.ide.util.TipDialog" timestamp="1601048974867">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="672" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1601017226418" />
+    <state x="756" y="212" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1601048974867" />
     <state x="756" y="214" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1601013096689" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1600009774862">
       <screen x="0" y="0" width="1366" height="728" />
