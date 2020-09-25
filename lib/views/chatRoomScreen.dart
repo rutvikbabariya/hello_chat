@@ -68,10 +68,14 @@ class _ChatRoomState extends State<ChatRoom> {
         actions: [
           GestureDetector(
             onTap: (){
+              HelperFunctions.saveUserLoggedInSharedPreference(false);
               authMethods.signOut();
-              Navigator.pushReplacement(context, MaterialPageRoute(
-                builder: (context)  => Authenticate(),
-              ),);
+              Navigator.pushReplacement(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => Authenticate(),
+                ),
+              );
             },
             child: Container(
                 padding: EdgeInsets.symmetric(horizontal: 16),
