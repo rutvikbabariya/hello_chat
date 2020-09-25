@@ -3,7 +3,6 @@ import 'package:hello_chat/helper/authenticate.dart';
 import 'package:hello_chat/helper/helperfunctions.dart';
 import 'package:hello_chat/views/chatRoomScreen.dart';
 
-
 void main() {
   runApp(MyApp());
 }
@@ -14,24 +13,23 @@ class MyApp extends StatefulWidget {
   _MyAppState createState() => _MyAppState();
 }
 
-bool userIsLoggedIn = false;
+
 class _MyAppState extends State<MyApp> {
-
-
+  bool userIsLoggedIn;
   @override
   void initState() {
     getLoggedInState();
     super.initState();
   }
-  
-  getLoggedInState() async{
-    await HelperFunctions.getUserLoggedINSharedPreference().then((value){
+
+  getLoggedInState() async {
+    await HelperFunctions.getUserLoggedINSharedPreference().then((value) {
       setState(() {
         userIsLoggedIn = value;
       });
     });
   }
-  
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -43,9 +41,13 @@ class _MyAppState extends State<MyApp> {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: userIsLoggedIn != null ? ChatRoom() : Authenticate() ,
+      home: userIsLoggedIn != null
+          ? userIsLoggedIn ? ChatRoom() : Authenticate()
+          : Container(
+              child: Center(
+                child: Authenticate(),
+              ),
+            ),
     );
   }
 }
-
-

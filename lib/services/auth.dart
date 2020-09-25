@@ -42,7 +42,7 @@ class AuthMethods{
     try{
       return await _auth.signOut();
     }catch(e){
-
+      return null;
     }
   }
 }

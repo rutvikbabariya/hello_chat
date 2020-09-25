@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f9cbb18-aa85-4f10-bbd1-d7412575e22a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.flutter-plugins" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/services/database.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/services/database.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/services/auth.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/services/auth.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/views/chatRoomScreen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/views/chatRoomScreen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/views/conversation_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/views/conversation_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/views/search.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/views/search.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/views/signup.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/views/signup.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/views/forgetpassword.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/views/forgetpassword.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/views/signin.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/views/signin.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,26 +66,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="363" y="91" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1600333889384" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1601019614392">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1601041168780">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601019614392" />
-    <state width="1323" height="166" key="GridCell.Tab.0.bottom" timestamp="1601036724986">
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601041168780" />
+    <state width="1323" height="144" key="GridCell.Tab.0.bottom" timestamp="1601046583888">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="166" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601036724986" />
-    <state width="1323" height="166" key="GridCell.Tab.0.center" timestamp="1601036724986">
+    <state width="1323" height="144" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601046583888" />
+    <state width="1323" height="144" key="GridCell.Tab.0.center" timestamp="1601046583888">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="166" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601036724986" />
-    <state width="1323" height="166" key="GridCell.Tab.0.left" timestamp="1601036724986">
+    <state width="1323" height="144" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601046583888" />
+    <state width="1323" height="144" key="GridCell.Tab.0.left" timestamp="1601046583888">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="166" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601036724986" />
-    <state width="1323" height="166" key="GridCell.Tab.0.right" timestamp="1601036724986">
+    <state width="1323" height="144" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601046583888" />
+    <state width="1323" height="144" key="GridCell.Tab.0.right" timestamp="1601046583888">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="166" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601036724986" />
+    <state width="1323" height="144" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601046583888" />
     <state x="672" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1601017226418">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
