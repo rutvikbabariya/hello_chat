@@ -10,8 +10,8 @@ class DatabaseMethods {
 
   getUserByUserEmail(String userEmail) async {
     return await Firestore.instance
-        .collection("email")
-        .where("name", isEqualTo: userEmail)
+        .collection("users")
+        .where("email", isEqualTo: userEmail)
         .getDocuments();
   }
 

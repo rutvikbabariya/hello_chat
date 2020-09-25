@@ -5,6 +5,8 @@ import 'package:hello_chat/services/database.dart';
 import 'package:hello_chat/views/conversation_screen.dart';
 import 'package:hello_chat/widgets/widget.dart';
 
+import '../helper/helperfunctions.dart';
+
 class SearchScreen extends StatefulWidget {
   @override
   _SearchScreenState createState() => _SearchScreenState();
@@ -97,17 +99,17 @@ class _SearchScreenState extends State<SearchScreen> {
 
   @override
   void initState() {
-   // getUserInfo();
+   getUserInfo();
     super.initState();
   }
 
- // getUserInfo()async{
- //    _myName = await HelperFunctions.getUserNameSharedPreference();
- //    setState(() {
- //
- //    });
- //    print("${_myName}");
- // }
+ getUserInfo()async{
+    _myName = await HelperFunctions.getUserNameSharedPreference();
+    setState(() {
+
+    });
+    print("${_myName}");
+ }
 
   @override
   Widget build(BuildContext context) {
