@@ -28,30 +28,34 @@ class _SignInState extends State<SignIn> {
   QuerySnapshot snapshotUserInfo;
 
   signIn(){
-    if(formKey.currentState.validate()){
+    if(formKey.currentState.validate()) {
+      HelperFunctions.saveUserEmailSharedPreference(
+          emailTextEditingController.text.trim());
 
-      HelperFunctions.saveUserEmailSharedPreference(emailTextEditingController.text);
-
-      databaseMethods.getUserByUserEmail(emailTextEditingController.text)
-          .then((val){
+      databaseMethods
+          .getUserByUserEmail(emailTextEditingController.text.trim())
+          .then((val) {
         snapshotUserInfo = val;
-        HelperFunctions
-            .saveUserNameSharedPreference(snapshotUserInfo.documents[0].data["name"]);
-      //  print("${snapshotUserInfo.documents[0].data["name"]}");
+        HelperFunctions.saveUserNameSharedPreference(
+            snapshotUserInfo.documents[0].data["name"]);
+        //  print("${snapshotUserInfo.documents[0].data["name"]}");
       });
-
 
       setState(() {
         isLoading = true;
       });
 
-      authMethods.signInWithEmailAndPassword(emailTextEditingController.text, passwordTextEditingController.text).then((val){
-
-        if(val != null){
+      authMethods
+          .signInWithEmailAndPassword(emailTextEditingController.text.trim(),
+              passwordTextEditingController.text.trim())
+          .then((val) {
+        if (val != null) {
           HelperFunctions.saveUserLoggedInSharedPreference(true);
-          Navigator.pushReplacement(context, MaterialPageRoute(
-            builder: (context) => ChatRoom(),
-          ));
+          Navigator.pushReplacement(
+              context,
+              MaterialPageRoute(
+                builder: (context) => ChatRoom(),
+              ));
         }
       });
     }
@@ -86,7 +90,9 @@ class _SignInState extends State<SignIn> {
                       TextFormField(
                         obscureText: true,
                         validator: (val){
-                          return val.length > 6 ? null : "Please Enter Password more then six character";
+                          return val.length > 6
+                              ? null
+                              : "Enter Password more than 6 characters";
                         },
                         controller: passwordTextEditingController,
                         style: simpleTextStyle(),
@@ -158,7 +164,7 @@ class _SignInState extends State<SignIn> {
                       },
                       child: Container(
                         padding:  EdgeInsets.symmetric(vertical: 8.0),
-                        child: Text(" Register now",style: TextStyle(
+                        child: Text("Register now", style: TextStyle(
                           color: Colors.white,
                           fontSize: 17,
                           decoration: TextDecoration.underline,
